@@ -42,10 +42,9 @@ print(f'Error Position: {" ".join(map(str, err))}')
 print(f'Corrected Codeword: {" ".join(map(str, (err + rc) % 2))}')
 ```
 # Output Waveform
-```
+
 <img width="866" height="812" alt="Screenshot 2026-03-13 134502" src="https://github.com/user-attachments/assets/7d478e4a-c429-40a8-94db-603ed9fce029" />
 <img width="623" height="490" alt="Screenshot 2026-03-13 135201" src="https://github.com/user-attachments/assets/6da6fe3f-d282-465e-8b1c-9955cd51114d" />
 
-```
 # Results
 Thus linear block code operation for the given input is successfully verified.
